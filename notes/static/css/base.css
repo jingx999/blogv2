@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 100vh;
+    margin: 0;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header, main, footer {
+    background-color: #F0FFFF;
+}
+
+main {
+    flex-grow: 1;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: #FF8C00;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+}
+
+nav > ul > li:hover {
+    background-color: #e0e0e0;
+}
+
+
